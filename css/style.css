@@ -339,8 +339,8 @@ cursive !important;
 /*===================== section-3 =====================*/
 
 .section-4 {
-    background: #ffebb9;
-    background: rgba(235, 235, 235, 0.67);
+    background: rgb(252 228 255 / 67%);
+    /* background: rgba(235, 235, 235, 0.67); */
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -615,6 +615,7 @@ cursive !important;
     color: #000;
     font-family: 'Open sans', sans-serif;
     text-align: left;
+    
 
 
 }
@@ -643,6 +644,7 @@ cursive !important;
 .section-5 {
 
     padding: 80px 0px;
+    background: rgb(252, 237, 237);
 
 }
 
@@ -675,11 +677,19 @@ cursive !important;
 
 .event {}
 
-
+.event .date {
+    width     : auto;
+    font-size : 12px;
+    background: #ffc8c8;
+    padding   : 8px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
 .event .border-area {
     margin: 0 auto;
     border: 1px solid #e2e2e2;
     box-shadow: 0px 6px 5px -3px #bcbbbb;
+    height: 100%;
 }
 
 
@@ -693,11 +703,15 @@ cursive !important;
 
 .event img {
     width: 100%;
+max-height: 180;
 }
 
 .event .content {
     background: #ffffff;
     padding: 20px 10px;
+        display: flex;
+    flex-direction: column;
+    height: calc(100% - 180px);;
 }
 
 .event .content h1 {
@@ -711,7 +725,8 @@ cursive !important;
 
 .event .content p {
     font-family: 'Open Sans', sans-serif;
-    text-align: ;
+    text-align: center;
+    flex: 1;
 }
 
 .event ul {
@@ -741,7 +756,7 @@ cursive !important;
 
 
 .section-6 {
-    background: rgba(235, 235, 235, 1);
+    background: rgb(255 247 236);
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -836,6 +851,13 @@ cursive !important;
 
 .section-6 .people img {
     width: 100%;
+    max-height: 250px;
+    min-height: 250px;     
+}
+
+.section-10 {
+    background: #fff;
+    padding   : 80px 10px;
 }
 
 .section-6 .people .content {
@@ -875,7 +897,7 @@ cursive !important;
 
 
 .section-7 {
-    background: #ffffff;
+    background: #ffeaea;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
@@ -948,8 +970,7 @@ cursive !important;
 
 
 .section-8 {
-    background: #f59090;
-    background: #efefef;
+    background: #eaffec;
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
