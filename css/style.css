@@ -1313,6 +1313,10 @@ max-height: 180;
         /* transform: translatey(-50%); */
     }
 
+    .section-10 img {
+        width: 86%;
+    }
+
     .text-box {
         width: 70%;
         position: absolute;
