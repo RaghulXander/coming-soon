@@ -1369,6 +1369,13 @@ max-height: 180;
         border: 5px solid rgba(255, 80, 80, 0);
     }
 
+    .section6 .people img {
+        width     : 100%;
+        max-height: 200px;
+        min-height: 200px;
+        max-width : 250px;
+    }
+
     .gallery-image {
         /* padding: 0; */
     }
