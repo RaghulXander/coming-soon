@@ -1286,10 +1286,6 @@ max-height: 180;
 }
 
 
-
-
-
-
 @media only screen and (max-width: 576px) {
     .section-1 {
         height: 100vh;
@@ -1363,17 +1359,10 @@ max-height: 180;
 
 
     .section-6 .people {
-        padding: 20px 0px;
+        padding: 30px 60px;
         border-left: 5px solid #ff5050;
         border-bottom: 5px solid #ff5050;
         border: 5px solid rgba(255, 80, 80, 0);
-    }
-
-    .section6 .people img {
-        width     : 100%;
-        max-height: 200px;
-        min-height: 200px;
-        max-width : 250px;
     }
 
     .gallery-image {
