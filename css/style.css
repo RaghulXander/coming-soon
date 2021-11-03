@@ -557,7 +557,7 @@ cursive !important;
 .section-4 .story-content4 {
     border: 1px solid #dddddd;
     box-shadow: -12px 0px 14px -11px #7b7b7b;
-    margin-top: 50px;
+    padding: 0 20px;
 }
 
 
@@ -675,7 +675,9 @@ cursive !important;
 
 
 
-.event {}
+.event {
+    margin-bottom: 30px !important;
+}
 
 .event .date {
     width     : auto;
